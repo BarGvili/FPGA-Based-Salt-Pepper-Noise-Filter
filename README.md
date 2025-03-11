@@ -28,7 +28,7 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 ### **1. Image Processing Pipeline:**
 - The noisy image is loaded into **ROM**.
 - The image is transferred to a **buffer of 3 rows**, each of size **258 pixels** (256 + 2 pixels for padding).
-- A **3x3 median filter** is applied in parallel across the entire row.
+- A **3x3 median of median filter** is applied in parallel across the entire row.
 - The filtered pixels are written to **RAM**.
 - The next row is loaded from **ROM**, and the process continues until the entire image is filtered.
 
