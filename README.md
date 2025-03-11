@@ -5,8 +5,11 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 
 ## Before & After Filtering
 <p align="center">
-  <img src="pictures/noisy_image.png" width="300"> ➡️
-  <img src="pictures/filtered_image.png" width="300"> <br>
+  <b>Before</b> 
+  <img src="pictures/noisy_image.png" width="300" style="vertical-align: middle;"> 
+  <img src="pictures/arrow.png" width="50" style="vertical-align: middle;"> 
+  <img src="pictures/filtered_image.png" width="300" style="vertical-align: middle;"> 
+  <b>After</b>
 </p>
 
 
