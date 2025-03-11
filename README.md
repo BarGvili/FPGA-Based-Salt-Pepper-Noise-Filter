@@ -4,8 +4,9 @@
 This project implements an **FPGA-based digital image filter** for removing **Salt & Pepper noise** using the **Median of Medians algorithm**. The implementation runs on an **Altera FPGA**, with an efficient hardware design for real-time processing.
 
 ## Before & After Filtering
-![Noisy Image](path/to/noisy_image.png)
-![Filtered Image](path/to/filtered_image.png)
+
+![output](https://github.com/user-attachments/assets/4416378e-f072-4217-a461-a9768c87d0af)
+![filtered_image](https://github.com/user-attachments/assets/cc8f0abb-1f7f-4e23-9f34-654ee2cd4470)
 
 ## Features
 - **Removes up to 5% of Salt & Pepper noise** from images.
