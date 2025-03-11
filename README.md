@@ -6,10 +6,11 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 ## Before & After Filtering
 <p align="center">
   <b>Before</b> <br>
-  <img src=![output](https://github.com/user-attachments/assets/4416378e-f072-4217-a461-a9768c87d0af) width="300"> ➡️
-  <img src=![filtered_image](https://github.com/user-attachments/assets/cc8f0abb-1f7f-4e23-9f34-654ee2cd4470) width="300"> <br>
+  <img src="noisy_image.png" width="300"> ➡️
+  <img src="filtered_image.png" width="300"> <br>
   <b>After</b>
 </p>
+
 
 
 
