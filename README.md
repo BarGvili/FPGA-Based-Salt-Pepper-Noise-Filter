@@ -3,18 +3,14 @@
 ## Overview
 This project implements an **FPGA-based digital image filter** for removing **Salt & Pepper noise** using the **Median of Medians algorithm**. The implementation runs on an **Altera FPGA**, with an efficient hardware design for real-time processing.
 
-<h3 align="center">Before & After Filtering</h3>
-<p align="center" style="display: flex; justify-content: center; gap: 40px;">
-  <span style="text-align: center;">
-    <img src="pictures/noisy_image.png" width="300"><br>
-    <b>Before</b>
-  </span>
-  <span style="font-size: 40px; line-height: 300px;">➜</span>
-  <span style="text-align: center;">
-    <img src="pictures/filtered_image.png" width="300"><br>
-    <b>After</b>
-  </span>
-</p>
+## Before & After Filtering
+<p align="center">
+  <b>Before</b> 
+  <img src="pictures/noisy_image.png" width="300"> 
+  <span style="font-size: 30px;">➜</span> 
+  <img src="pictures/filtered_image.png" width="300"> 
+  <b>After</b>
+</p> 
 
 
 
@@ -43,7 +39,7 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 - Uses **RAM/ROM signals** for memory management.
 - Manages state transitions for efficient row processing.
   
-  <img src="pictures/fsm.png" width="400"> 
+  <img src="pictures/fsm.png" width="500"> 
 
    
 
