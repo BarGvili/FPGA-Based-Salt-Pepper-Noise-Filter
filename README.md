@@ -5,7 +5,9 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 
 ## Before & After Filtering
 <p align="center">
+  
   <b>Before</b> 
+  
   <img src="pictures/noisy_image.png" width="300"> 
   <span style="font-size: 30px;">➜</span> 
   <img src="pictures/filtered_image.png" width="300"> 
@@ -37,6 +39,10 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 - Controls the **start**, **processing**, and **completion** of filtering.
 - Uses **RAM/ROM signals** for memory management.
 - Manages state transitions for efficient row processing.
+ <p align="center">
+  <img src="pictures/fsm.png" width="300"> 
+  <span style="font-size: 30px;">➜</span> 
+   
 
 
 
