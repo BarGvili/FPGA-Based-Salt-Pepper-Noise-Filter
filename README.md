@@ -41,7 +41,7 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 - Uses **RAM/ROM signals** for memory management.
 - Manages state transitions for efficient row processing.
   
-  <img src="pictures/fs.png" width="500"> 
+  <img src="pictures/fsm.png" width="500"> 
 
    
 
