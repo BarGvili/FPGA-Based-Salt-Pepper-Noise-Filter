@@ -9,7 +9,6 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
   <img src="pictures/noisy_image.png" width="300"> 
   <span style="font-size: 30px;">➜</span> 
   <img src="pictures/filtered_image.png" width="300"> 
-  
   <b>After</b>
 </p> 
 
