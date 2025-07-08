@@ -34,6 +34,8 @@ This project implements an **FPGA-based digital image filter** for removing **Sa
 - The filtered pixels are written to **RAM**.
 - The next row is loaded from **ROM**, and the process continues until the entire image is filtered.
 
+    <img src="pictures/pipeline.png" width="500"> 
+
 ### **2. FSM (Finite State Machine) Control:**
 - Controls the **start**, **processing**, and **completion** of filtering.
 - Uses **RAM/ROM signals** for memory management.
